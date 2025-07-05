@@ -1,0 +1,8 @@
+{% include 'layout/terminal_output.html' %}
+{% block output %}
+    <div>
+        <p>
+            <span class="text-red">error:</span> command not found: {{ command }}
+        </p>
+    </div>
+{% endblock output %}

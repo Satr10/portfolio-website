@@ -1,0 +1,39 @@
+{% include "layout/terminal_output.html" %}
+{% block output %}
+    <div>
+        <pre class="hidden sm:block">
+<span class="text-green">help</span>     - menampilkan daftar perintah yang tersedia
+<span class="text-green">welcome</span>  - menampilkan pesan selamat datang
+<span class="text-green">about</span>    - menampilkan informasi tentang saya
+<span class="text-green">projects</span> - menampilkan semua projek saya
+<span class="text-green">contact</span>  - menampilkan informasi kontak
+<span class="text-green">clear</span>    - membersihkan terminal
+</pre>
+        <div class="sm:hidden">
+            <div>
+                <span class="text-green w-20 inline-block">help</span>
+                <span>- menampilkan daftar perintah</span>
+            </div>
+            <div>
+                <span class="text-green w-20 inline-block">welcome</span>
+                <span>- menampilkan pesan selamat datang</span>
+            </div>
+            <div>
+                <span class="text-green w-20 inline-block">about</span>
+                <span>- menampilkan info tentang saya</span>
+            </div>
+            <div>
+                <span class="text-green w-20 inline-block">projects</span>
+                <span>- menampilkan semua projek</span>
+            </div>
+            <div>
+                <span class="text-green w-20 inline-block">contact</span>
+                <span>- menampilkan info kontak</span>
+            </div>
+            <div>
+                <span class="text-green w-20 inline-block">clear</span>
+                <span>- membersihkan terminal</span>
+            </div>
+        </div>
+    </div>
+{% endblock output %}

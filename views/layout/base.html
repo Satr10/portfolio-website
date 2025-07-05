@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js"></script>
+        <script src="https://unpkg.com/hyperscript.org@0.9.14"></script>
+    </head>
+    <body class="bg-gradient-to-r from-mauve to-rosewater">
+        <div class=" flex flex-col justify-center items-center p-2 sm:p-8 h-[calc(100vh-4rem)]">
+            {% block content %}
+            {% endblock content %}
+        </div>
+        <footer class="flex items-center justify-center">
+            <p class="text-sm text-gray-600">Footer placeholder</p>
+        </footer>
+    </body>
+</html>

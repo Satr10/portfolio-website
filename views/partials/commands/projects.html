@@ -1,0 +1,55 @@
+{% include 'layout/terminal_output.html' %}
+{% block output %}
+    <div>
+        <p>Memuat daftar proyek...</p>
+        <br>
+        <pre class="hidden sm:block">
+ NAMA PROYEK           | TEKNOLOGI                              | LINK
+--------------------------------------------------------------------------------
+ Portfolio Ini         | HTMX, Go Fiber, Tailwind, Hyperscript  | Halaman Ini
+ Anime-Fasthtml        | Python, FastHTML, Tailwind             | <a href="https://github.com/Satr10/Anime-Fasthtml" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
+ 1cak Unofficial API   | Go, Fiber, Colly                       | <a href="https://github.com/Satr10/1cak-api" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
+ Otakudesu Unofficial  | Go, Fiber, Colly                       | <a href="https://github.com/Satr10/Otakudesu-Api" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
+ Go WhatsApp Bot       | Go, Whatsmeow                          | <a href="https://github.com/Satr10/go-whatsapp-bot" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
+</pre>
+        <div class="sm:hidden space-y-4">
+            <div>
+                <p class="font-semibold">Portfolio Ini</p>
+                <p class="text-sm text-gray-400">Teknologi: HTMX, Hyperscript, Go Fiber, Tailwind, Django Template</p>
+                <p class="text-sm text-blue-400">Anda sedang melihatnya sekarang &rarr;</p>
+            </div>
+            <div>
+                <p class="font-semibold">Anime-Fasthtml</p>
+                <p class="text-sm text-gray-400">Teknologi: Python, FastHTML, Tailwind</p>
+                <a href="https://github.com/Satr10/Anime-Fasthtml"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
+            </div>
+            <div>
+                <p class="font-semibold">1cak Unofficial API</p>
+                <p class="text-sm text-gray-400">Teknologi: Go, Fiber, Colly</p>
+                <a href="https://github.com/Satr10/1cak-api"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
+            </div>
+            <div>
+                <p class="font-semibold">Otakudesu Unofficial</p>
+                <p class="text-sm text-gray-400">Teknologi: Go, Fiber, Colly</p>
+                <a href="https://github.com/Satr10/Otakudesu-Api"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
+            </div>
+            <div>
+                <p class="font-semibold">Go WhatsApp Bot</p>
+                <p class="text-sm text-gray-400">Teknologi: Go, Whatsmeow</p>
+                <a href="https://github.com/Satr10/go-whatsapp-bot"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
+            </div>
+        </div>
+    </div>
+{% endblock output %}
