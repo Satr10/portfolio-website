@@ -15,6 +15,7 @@ var allowedCommands = map[string]bool{
 	"help":        true,
 	"about":       true,
 	"projects":    true,
+	"contact":     true,
 	"keahlian":    true,
 	"pencapaian":  true,
 	"rencana":     true,
