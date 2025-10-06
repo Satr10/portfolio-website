@@ -1,0 +1,16 @@
+--- Launching Playwright to run verification script...
+--- Starting test: Navigating to page...
+--- Page loaded.
+--- Running command: 'about'
+--- Command 'about' verified successfully.
+--- Running command: 'keahlian'
+--- Command 'keahlian' verified successfully.
+--- Running command: 'pencapaian'
+--- Command 'pencapaian' verified successfully.
+--- Running command: 'projects'
+--- Command 'projects' verified successfully.
+--- Running command: 'rencana'
+--- Command 'rencana' verified successfully.
+--- All commands verified. Taking screenshot...
+--- Screenshot 'verification.png' created successfully.
+--- Playwright script finished.

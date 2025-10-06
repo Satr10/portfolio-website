@@ -1,55 +1,37 @@
-{% include 'layout/terminal_output.html' %}
-{% block output %}
-    <div>
-        <p>Memuat daftar proyek...</p>
-        <br>
-        <pre class="hidden sm:block">
- NAMA PROYEK           | TEKNOLOGI                              | LINK
---------------------------------------------------------------------------------
- Portfolio Ini         | HTMX, Go Fiber, Tailwind, Hyperscript  | Halaman Ini
- Anime-Fasthtml        | Python, FastHTML, Tailwind             | <a href="https://github.com/Satr10/Anime-Fasthtml" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
- 1cak Unofficial API   | Go, Fiber, Colly                       | <a href="https://github.com/Satr10/1cak-api" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
- Otakudesu Unofficial  | Go, Fiber, Colly                       | <a href="https://github.com/Satr10/Otakudesu-Api" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
- Go WhatsApp Bot       | Go, Whatsmeow                          | <a href="https://github.com/Satr10/go-whatsapp-bot" target="_blank" rel="noopener noreferrer" class="underline">Repositori</a>
-</pre>
-        <div class="sm:hidden space-y-4">
-            <div>
-                <p class="font-semibold">Portfolio Ini</p>
-                <p class="text-sm text-gray-400">Teknologi: HTMX, Hyperscript, Go Fiber, Tailwind, Django Template</p>
-                <p class="text-sm text-blue-400">Anda sedang melihatnya sekarang &rarr;</p>
-            </div>
-            <div>
-                <p class="font-semibold">Anime-Fasthtml</p>
-                <p class="text-sm text-gray-400">Teknologi: Python, FastHTML, Tailwind</p>
-                <a href="https://github.com/Satr10/Anime-Fasthtml"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
-            </div>
-            <div>
-                <p class="font-semibold">1cak Unofficial API</p>
-                <p class="text-sm text-gray-400">Teknologi: Go, Fiber, Colly</p>
-                <a href="https://github.com/Satr10/1cak-api"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
-            </div>
-            <div>
-                <p class="font-semibold">Otakudesu Unofficial</p>
-                <p class="text-sm text-gray-400">Teknologi: Go, Fiber, Colly</p>
-                <a href="https://github.com/Satr10/Otakudesu-Api"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
-            </div>
-            <div>
-                <p class="font-semibold">Go WhatsApp Bot</p>
-                <p class="text-sm text-gray-400">Teknologi: Go, Whatsmeow</p>
-                <a href="https://github.com/Satr10/go-whatsapp-bot"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="text-sm underline text-blue-400">Lihat Repositori &rarr;</a>
-            </div>
+<div class="mb-4">
+    <p class="text-xl font-bold text-cyan-400">Dokumentasi Visual</p>
+    <div class="border-l-2 border-cyan-400 pl-4 mt-2">
+        <p class="font-semibold text-fuchsia-400">Portofolio Proyek:</p>
+        <p class="mb-2">Semua proyek yang saya kembangkan didasari oleh rasa ingin tahu dan dipelajari secara mandiri. Berikut adalah beberapa di antaranya:</p>
+
+        <div class="mb-3">
+            <p class="font-bold text-yellow-300">1. 1cak & Otakudesu Unofficial API</p>
+            <p><strong>Deskripsi:</strong> Dua proyek <em>web scraping</em> yang berfungsi sebagai API tidak resmi untuk mengambil data dari situs 1cak dan Otakudesu. Proyek ini menunjukkan kemampuan dalam rekayasa balik (<em>reverse engineering</em>) dan pembuatan API.</p>
+            <p><strong>Teknologi:</strong> Go, Fiber (Web Framework), Colly (Scraping Framework).</p>
+            <p><strong>Tautan Repositori:</strong></p>
+            <ul class="list-disc list-inside ml-4">
+                <li><a href="https://github.com/Satr10/1cak-api" target="_blank" class="text-blue-400 hover:underline">1cak Unofficial API</a></li>
+                <li><a href="https://github.com/Satr10/Otakudesu-Api" target="_blank" class="text-blue-400 hover:underline">Otakudesu Unofficial API</a></li>
+            </ul>
+        </div>
+
+        <div class="mb-3">
+            <p class="font-bold text-yellow-300">2. Go WhatsApp Bot</p>
+            <p><strong>Deskripsi:</strong> Sebuah kerangka bot WhatsApp yang dibangun menggunakan Go, memanfaatkan library Whatsmeow. Proyek ini adalah eksplorasi dalam otomatisasi dan interaksi dengan platform pesan instan.</p>
+            <p><strong>Teknologi:</strong> Go, Whatsmeow.</p>
+            <p><strong>Tautan Repositori:</strong> <a href="https://github.com/Satr10/go-whatsapp-bot" target="_blank" class="text-blue-400 hover:underline">Go WhatsApp Bot</a></p>
+        </div>
+
+        <div class="mb-3">
+            <p class="font-bold text-yellow-300">3. Anime-Fasthtml</p>
+            <p><strong>Deskripsi:</strong> Proyek web yang mengimplementasikan FastHTML, sebuah library untuk membangun antarmuka web reaktif tanpa menulis JavaScript secara manual.</p>
+            <p><strong>Teknologi:</strong> Python, FastHTML, TailwindCSS.</p>
+            <p><strong>Tautan Repositori:</strong> <a href="https://github.com/Satr10/Anime-Fasthtml" target="_blank" class="text-blue-400 hover:underline">Anime-Fasthtml</a></p>
+        </div>
+
+        <div>
+            <p class="font-semibold text-fuchsia-400">Profil GitHub Utama:</p>
+            <p>Untuk melihat semua proyek lainnya, silakan kunjungi profil saya di <a href="https://github.com/Satr10" target="_blank" class="text-blue-400 hover:underline">github.com/Satr10</a>.</p>
         </div>
     </div>
-{% endblock output %}
+</div>

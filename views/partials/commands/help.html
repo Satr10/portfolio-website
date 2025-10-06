@@ -1,39 +1,28 @@
-{% include "layout/terminal_output.html" %}
-{% block output %}
-    <div>
-        <pre class="hidden sm:block">
-<span class="text-green">help</span>     - menampilkan daftar perintah yang tersedia
-<span class="text-green">welcome</span>  - menampilkan pesan selamat datang
-<span class="text-green">about</span>    - menampilkan informasi tentang saya
-<span class="text-green">projects</span> - menampilkan semua projek saya
-<span class="text-green">contact</span>  - menampilkan informasi kontak
-<span class="text-green">clear</span>    - membersihkan terminal
-</pre>
-        <div class="sm:hidden">
-            <div>
-                <span class="text-green w-20 inline-block">help</span>
-                <span>- menampilkan daftar perintah</span>
-            </div>
-            <div>
-                <span class="text-green w-20 inline-block">welcome</span>
-                <span>- menampilkan pesan selamat datang</span>
-            </div>
-            <div>
-                <span class="text-green w-20 inline-block">about</span>
-                <span>- menampilkan info tentang saya</span>
-            </div>
-            <div>
-                <span class="text-green w-20 inline-block">projects</span>
-                <span>- menampilkan semua projek</span>
-            </div>
-            <div>
-                <span class="text-green w-20 inline-block">contact</span>
-                <span>- menampilkan info kontak</span>
-            </div>
-            <div>
-                <span class="text-green w-20 inline-block">clear</span>
-                <span>- membersihkan terminal</span>
-            </div>
-        </div>
+<div class="mb-4">
+    <p class="text-xl font-bold text-cyan-400">Daftar Perintah</p>
+    <div class="mt-2 grid grid-cols-[auto,1fr] gap-x-4 gap-y-1">
+        <span class="text-green-400">about</span>
+        <span>- Menampilkan 'Profil Diri'</span>
+
+        <span class="text-green-400">keahlian</span>
+        <span>- Menampilkan 'Keahlian & Minat'</span>
+
+        <span class="text-green-400">pencapaian</span>
+        <span>- Menampilkan 'Pencapaian'</span>
+
+        <span class="text-green-400">projects</span>
+        <span>- Menampilkan 'Dokumentasi Visual' (Proyek)</span>
+
+        <span class="text-green-400">rencana</span>
+        <span>- Menampilkan 'Rencana Pemanfaatan Teknologi'</span>
+
+        <span class="text-green-400">help</span>
+        <span>- Menampilkan daftar perintah ini</span>
+
+        <span class="text-green-400">welcome</span>
+        <span>- Menampilkan pesan selamat datang</span>
+
+        <span class="text-green-400">clear</span>
+        <span>- Membersihkan terminal</span>
     </div>
-{% endblock output %}
+</div>

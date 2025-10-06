@@ -12,12 +12,14 @@ type commandInput struct {
 }
 
 var allowedCommands = map[string]bool{
-	"help":     true,
-	"about":    true,
-	"projects": true,
-	"contact":  true,
-	"clear":    true,
-	"welcome":  true,
+	"help":        true,
+	"about":       true,
+	"projects":    true,
+	"keahlian":    true,
+	"pencapaian":  true,
+	"rencana":     true,
+	"clear":       true,
+	"welcome":     true,
 }
 
 func CommandHtmx(c *fiber.Ctx) error {
